@@ -1,0 +1,56 @@
+to connect the gitbash to github
+
+github account create 
+go to settings
+ssh and gpg click generating ssh keys
+go to 3rd option
+copy the link in 2 point
+paste in gitbash
+enter pass two times
+click enter two times
+we observe rsa 4096 box
+go to folders - user - prasad - .ssh /id_rsa
+then it will open note pad then copy the data
+in github new ssh key lo key box lo paste chai
+click on add shh key
+then go to repository go to created repository
+copy the link
+go to gitbash
+type- git clone -paste the copied link
+then its done
+
+
+DS
+
+def findmax(arr,n):
+    maxind=0
+    maxval=arr[0]
+    for i in range(n+1):
+        if arr[i]>maxval:
+            maxval=arr[i]
+            maxind=i
+    return maxind
+def sort(n,arr):
+    for i in range(n-1,0,-1):
+        maxind=findmax(arr,i)
+        arr[maxind],arr[i]=arr[i],arr[maxind]        
+        
+n=int(input())
+arr=list(map(int,input().split()))
+sort(n,arr)
+print(*arr)
+
+def sort(n,arr):
+    if n==0:
+        return
+    maxind=findmax(arr,i)
+    arr[maxind],arr[n]=arr[n],arr[maxind]
+    sort(n-1,arr)
+n=int(input())
+arr=list(map(int,input().split()))
+sort(n,arr)
+print(*arr)
+
+PASSWORD FOR TYOKEN
+
+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 
